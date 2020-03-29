@@ -19,7 +19,7 @@
 
   <body>
     <!-- Navbar Component -->
-    <nav id="sivrite-nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav id="sivrite-nav" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">sivrite</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -38,6 +38,15 @@
       </video>
       <h1 id="over-vid" class="display-3 text-center bg-secondary pb-2 shadow-lg p-3 mb-5 rounded">Hello there, nice to meet you!</h1>
     </div>
+    
+    <a href="#">
+    <button id="return-nav" type="button" class="btn btn-outline-primary">
+      <svg class="bi bi-arrow-up" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V4a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 3.707 5.354 6.354a.5.5 0 11-.708-.708l3-3z" clip-rule="evenodd"/>
+      </svg>
+    </button>
+    </a>
 
     <div data-spy="scroll" data-target="#sivrite-nav" data-offset="0" class="container">
       <!-- Content here -->
@@ -53,11 +62,11 @@
       <div class="row">
         <div id="intro-card" class="col mt-5">
           <div class="row justify-content-center">
-            <div class="col-4">
-              <div class="card mt-5 bg-transparent border-primary mb-3">
-                <img src="https://s3.amazonaws.com/portfolio.sivrite/thumbnail_IMG_20200107_162128-02+(1).jpg" class="card-img-top rounded-circle" alt="Picture of Cargill Seiveright">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+            <div class="col-8 col-md-6 col-lg-4">
+              <div id="self-card" class="card mt-5 bg-transparent border-primary mb-3">
+                <img src="https://s3.amazonaws.com/portfolio.sivrite/thumbnail_IMG_20200107_162128-02+(1).jpg" class="card-img-top rounded-circle pt-2" alt="Picture of Cargill Seiveright">
+                <div class="card-body text-center">
+                  <h5 class="card-title">I'm Cargill Seiveright</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
@@ -85,8 +94,5 @@
   src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-    <!--Plugins-->
-    <script src="./auto-hiding-bootstrap-navbar.js"></script>
   </body>
 </html>

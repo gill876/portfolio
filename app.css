@@ -47,4 +47,28 @@
 
 #intro-card {
   background-image: url('https://s3.amazonaws.com/portfolio.sivrite/2754227.jpg');
+  height: 900px;
+}
+
+.card-img-top {
+  height: 80%;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+#self-card {
+  position: relative;
+  top: 150px;
+}
+
+#return-nav {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
 }
